@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>AdminLTE 3 | Log in (v2)</title>
 
-  <!-- Google Font: Source Sans Pro -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="<?= base_url('static/plugins/fontawesome-free/css/all.min.css')?>">
-  <!-- icheck bootstrap -->
-  <link rel="stylesheet" href="<?= base_url('static/plugins/icheck-bootstrap/icheck-bootstrap.min.css')?>">
-  <!-- Theme style -->
-  <link rel="stylesheet" href="<?= base_url('static/dist/css/adminlte.min.css') ?>">
-</head>
-<body class="hold-transition login-page">
 <div class="login-box">
   <!-- /.login-logo -->
   <div class="card card-outline card-primary">
@@ -24,7 +8,7 @@
     <div class="card-body">
       <p class="login-box-msg">Silahkan Masuk Untuk Memulai Sesi Anda</p>
 
-      <form action="../../index3.html" method="post">
+      <form action="" method="post">
         <div class="input-group mb-3">
           <input type="email" class="form-control" placeholder="Email Anda">
           <div class="input-group-append">
@@ -49,26 +33,14 @@
           <!-- /.col -->
         </div>
       </form>
+			<hr>
 
-      <p class="mb-1">
-      </p>
-      <p class="mb-0">
-		<span>Belum memiliki akun ?
-        <a href="register.html">Daftar Baru</a>
-		</span>
-      </p>
+			<span>Belum memiliki akun ?
+					<a href="<?= base_url('index.php/register') ?>">Daftar Baru</a>
+			</span>
     </div>
     <!-- /.card-body -->
   </div>
   <!-- /.card -->
 </div>
 <!-- /.login-box -->
-
-<!-- jQuery -->
-<script src="<?= base_url('static/plugins/jquery/jquery.min.js') ?>"></script>
-<!-- Bootstrap 4 -->
-<script src="<?= base_url('static/plugins/bootstrap/js/bootstrap.bundle.min.js') ?>"></script>
-<!-- AdminLTE App -->
-<script src="<?= base_url('static/dist/js/adminlte.min.js') ?>"></script>
-</body>
-</html>
