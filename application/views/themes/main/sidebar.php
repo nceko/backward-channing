@@ -19,78 +19,104 @@
   		</div>
 
   		<!-- Sidebar Menu -->
-  		<nav class="mt-2">
+  		<div class="user-panel mt-3 pb-3 mb-3 d-flex">
+  			<nav class="mt-2">
+  				<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+  					<!-- Add icons to the links using the .nav-icon class
+               with font-awesome or any other icon font library -->
+  					<li class="nav-item">
+  						<a href="<?= site_url('home') ?>" class="nav-link">
+  							<i class="nav-icon fas fa-tachometer-alt"></i>
+  							<p>
+  								Home
+  							</p>
+  						</a>
+  					</li>
+  					<li class="nav-header">Pengguna</li>
+  					<li class="nav-item">
+  						<a href="<?= site_url('/user/management') ?>" class="nav-link">
+  							<i class="nav-icon fas fa-user"></i>
+  							<p>
+  								Pengguna MBCCIA
+  							</p>
+  						</a>
+  					</li>
+  					<li class="nav-header">Konsultasi</li>
+  					<li class="nav-item">
+  						<a href="#" class="nav-link">
+  							<i class="nav-icon fas fa-question"></i><i class="fa-solid "></i>
+  							<p>
+  								Konsultasi Kerusakan
+  							</p>
+  						</a>
+  					</li>
+  					<li class="nav-header">Kerusakan dan Gejala</li>
+  					<li class="nav-item">
+  						<a href="#" class="nav-link">
+  							<i class="nav-icon fas fa-database"></i>
+  							<p>
+  								Data
+  								<i class="right fas fa-angle-left"></i>
+  							</p>
+  						</a>
+  						<ul class="nav nav-treeview">
+  							<li class="nav-item">
+  								<a href="#" class="nav-link">
+  									<i class="far fa-circle nav-icon"></i>
+  									<p>Kerusakan</p>
+  								</a>
+  							</li>
+  							<li class="nav-item">
+  								<a href="#" class="nav-link">
+  									<i class="far fa-circle nav-icon"></i>
+  									<p>Permasalahan</p>
+  								</a>
+  							</li>
+  							<li class="nav-item">
+  								<a href="#" class="nav-link">
+  									<i class="far fa-circle nav-icon"></i>
+  									<p>Pengaturan Nilai </p>
+  								</a>
+  							</li>
+  						</ul>
+  					</li>
+  					<li class="nav-header">About Us</li>
+  					<li class="nav-item">
+  						<a href="<?= site_url('/user/management') ?>" class="nav-link">
+  							<i class="nav-icon fas fa-address-card"></i>
+  							<p>
+  								About MBCCIA Apps
+  							</p>
+  						</a>
+  					</li>
+  				</ul>
+  			</nav>
+  		</div>
+  		<!-- /.sidebar-menu -->
+
+  		<!-- Profile and Logout -->
+  		<div class="user-panel mt-3 pb-3 mb-3 d-flex">
   			<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
   				<!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
   				<li class="nav-item">
   					<a href="#" class="nav-link">
-  						<i class="nav-icon fas fa-tachometer-alt"></i>
+  						<i class="nav-icon fas fa-user-setting"></i>
   						<p>
-  							Home
+  							Profile
   						</p>
   					</a>
   				</li>
-  				<li class="nav-header">Pengguna</li>
   				<li class="nav-item">
   					<a href="<?= site_url('/user/management') ?>" class="nav-link">
-  						<i class="nav-icon fas fa-user"></i>
+  						<i class="nav-icon fas fa-close"></i>
   						<p>
-  							Pengguna MBCCIA
-  						</p>
-  					</a>
-  				</li>
-  				<li class="nav-header">Konsultasi</li>
-  				<li class="nav-item">
-  					<a href="#" class="nav-link">
-  						<i class="nav-icon fas fa-question"></i><i class="fa-solid "></i>
-  						<p>
-  							Konsultasi Kerusakan
-  						</p>
-  					</a>
-  				</li>
-  				<li class="nav-header">Kerusakan dan Gejala</li>
-  				<li class="nav-item">
-  					<a href="#" class="nav-link">
-  						<i class="nav-icon fas fa-database"></i>
-  						<p>
-  							Data
-  							<i class="right fas fa-angle-left"></i>
-  						</p>
-  					</a>
-  					<ul class="nav nav-treeview">
-  						<li class="nav-item">
-  							<a href="#" class="nav-link">
-  								<i class="far fa-circle nav-icon"></i>
-  								<p>Kerusakan</p>
-  							</a>
-  						</li>
-  						<li class="nav-item">
-  							<a href="#" class="nav-link">
-  								<i class="far fa-circle nav-icon"></i>
-  								<p>Gejala</p>
-  							</a>
-  						</li>
-  						<li class="nav-item">
-  							<a href="#" class="nav-link">
-  								<i class="far fa-circle nav-icon"></i>
-  								<p>Pengaturan Nilai </p>
-  							</a>
-  						</li>
-  					</ul>
-  				</li>
-  				<li class="nav-header">About Us</li>
-  				<li class="nav-item">
-  					<a href="<?= site_url('/user/management') ?>" class="nav-link">
-  						<i class="nav-icon fas fa-address-card"></i>
-  						<p>
-  							About MBCCIA Apps
+  							Keluar
   						</p>
   					</a>
   				</li>
   			</ul>
-  		</nav>
-  		<!-- /.sidebar-menu -->
+  		</div>
   	</div>
   	<!-- /.sidebar -->
   </aside>

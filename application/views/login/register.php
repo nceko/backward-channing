@@ -50,7 +50,7 @@
 	  <hr>
 
       	<span>Sudah memiliki akun ?
-        	<a href="<?= base_url('index.php/login') ?>">Masuk</a>
+        	<a href="<?= base_url('login') ?>">Masuk</a>
 		</span>
     </div>
     <!-- /.form-box -->

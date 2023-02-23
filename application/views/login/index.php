@@ -36,7 +36,7 @@
 			<hr>
 
 			<span>Belum memiliki akun ?
-					<a href="<?= base_url('index.php/register') ?>">Daftar Baru</a>
+					<a href="<?= base_url('register') ?>">Daftar Baru</a>
 			</span>
     </div>
     <!-- /.card-body -->

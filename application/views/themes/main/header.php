@@ -16,6 +16,10 @@
 	<link rel="stylesheet" href="<?= base_url('static/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') ?>">
 	<!-- Theme style -->
 	<link rel="stylesheet" href="<?= base_url('static/dist/css/adminlte.min.css') ?>">
+	<!-- Toastr -->
+	<link rel="stylesheet" href="<?= base_url('static/plugins/toastr/toastr.min.css') ?>">
+	<!-- SweetAlert2 -->
+	<link rel="stylesheet" href="<?= base_url('static/plugins/sweetalert2-theme-bootstrap-4/bootstrap-4.min.css') ?>">
 
 	<script>
 		window.onload = function() {
