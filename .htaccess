@@ -1,5 +1,4 @@
 RewriteEngine on
-RewriteBase /var/www/html/project_one
 
 # Allow any files or directories that exist to be displayed directly
 RewriteCond %{REQUEST_FILENAME} !-f
