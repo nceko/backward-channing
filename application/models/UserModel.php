@@ -4,7 +4,7 @@ class UserModel extends CI_Model
 {
 	public function fetch()
 	{
-		# code...
+		$data 	= $this->db->query();
 	}
 
 	public function new()

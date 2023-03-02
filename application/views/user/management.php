@@ -43,6 +43,9 @@
   										<th>Aksi</th>
   									</tr>
   								</thead>
+								<tbody>
+									
+								</tbody>
   							</table>
   						</div>
   						<!-- /.card-body -->

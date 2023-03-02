@@ -9,7 +9,7 @@
 			<a href="<?= site_url('home') ?>" class="nav-link">Home</a>
 		</li>
 	</ul>
-	#
+		
 	<!-- Right navbar links -->
 	<ul class="navbar-nav ml-auto">
 		<li class="nav-item">

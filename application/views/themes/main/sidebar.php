@@ -34,7 +34,7 @@
   					</li>
   					<li class="nav-header">Pengguna</li>
   					<li class="nav-item">
-  						<a href="<?= site_url('/user/management') ?>" class="nav-link">
+  						<a href="<?= site_url('user/management') ?>" class="nav-link">
   							<i class="nav-icon fas fa-user"></i>
   							<p>
   								Pengguna MBCCIA
@@ -43,7 +43,7 @@
   					</li>
   					<li class="nav-header">Konsultasi</li>
   					<li class="nav-item">
-  						<a href="#" class="nav-link">
+  						<a href="<?= site_url('konsultasi/kerusakan') ?>" class="nav-link">
   							<i class="nav-icon fas fa-question"></i><i class="fa-solid "></i>
   							<p>
   								Konsultasi Kerusakan
@@ -101,7 +101,7 @@
                with font-awesome or any other icon font library -->
   				<li class="nav-item">
   					<a href="#" class="nav-link">
-  						<i class="nav-icon fas fa-user-setting"></i>
+  						<i class="nav-icon fas fa-user-edit"></i>
   						<p>
   							Profile
   						</p>
@@ -109,7 +109,7 @@
   				</li>
   				<li class="nav-item">
   					<a href="<?= site_url('/user/management') ?>" class="nav-link">
-  						<i class="nav-icon fas fa-close"></i>
+  						<i class="nav-icon fas fa-sign-out-alt"></i>
   						<p>
   							Keluar
   						</p>

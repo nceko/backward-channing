@@ -11,9 +11,7 @@
 	<!-- Font Awesome -->
 	<link rel="stylesheet" href="<?= base_url('static/plugins/fontawesome-free/css/all.min.css') ?>">
 	<!-- DataTables -->
-	<link rel="stylesheet" href="<?= base_url('static/plugins/datatables-bs4/css/dataTables.bootstrap4.min.css') ?>">
-	<link rel="stylesheet" href="<?= base_url('static/plugins/datatables-responsive/css/responsive.bootstrap4.min.css') ?>">
-	<link rel="stylesheet" href="<?= base_url('static/plugins/datatables-buttons/css/buttons.bootstrap4.min.css') ?>">
+	<link rel="stylesheet" href="cdn.datatables.net/1.13.2/css/jquery.dataTables.min.css">
 	<!-- Theme style -->
 	<link rel="stylesheet" href="<?= base_url('static/dist/css/adminlte.min.css') ?>">
 	<!-- Toastr -->
